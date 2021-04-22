@@ -8,7 +8,7 @@ function SetTimeScreen(props) {
 
   const onSubmit = () => {
 
-    let intHour = parseInt(hour?hour:0)
+    let intHour  = parseInt(hour?hour:0)
     let intMinute = parseInt(minute?minute:0)
     let intSeconds = parseInt(seconds?seconds:0)
 
